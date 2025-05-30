@@ -195,3 +195,19 @@
     - b) toNumber()
     - c) convertNumber()
     - d) parse()
+  
+## Bonus Conceptual Questions: Mandatory
+1. Why is using let safer than var?
+let is block-scoped, which means it only works inside the block where it’s declared. This prevents accidental overwrites or bugs that can happen with var, which is function-scoped and can leak outside blocks.
+
+2. What is the main benefit of separating JavaScript from HTML?
+It keeps the code clean and organized. HTML handles the structure, CSS handles the style, and JavaScript handles behavior. This makes the code easier to read, maintain, and reuse.
+
+3. Why is Math.random() useful in games or UI effects?
+It helps add randomness, like choosing a random enemy, color, or animation. This makes games and interfaces feel more dynamic and fun.
+
+4. What happens if two event listeners are attached to the same element?
+Both will run in the order they were added. This allows you to build complex behavior step by step, but you must manage them carefully to avoid unexpected results.
+
+5. Why should we use functions to organize code?
+Functions group related code into reusable blocks. This makes the code easier to understand, reduces repetition, and helps you fix or update logic in just one place.
